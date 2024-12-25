@@ -106,5 +106,18 @@ nav{
     background-color: var(--primary-color);
     transition: .5s;
     z-index: -1;
-    /*transform: translateX(-100%);*/
+    transform: translateX(-100%);
+}
+
+.nav__links.open {
+    transform: translateX(0);
+}
+
+.nav__links a{
+    font-weight: 500;
+    color: var(--white);
+}
+
+.nav__search {
+    display: none;
 }
